@@ -66,28 +66,76 @@
   ],
   "products": [
     {
-      "id": 1,
-      "name": "Sandwich de jamón y queso",
+      "name": "American coffee",
+      "price": 500,
+      "type": "Breakfast",
+      "id": 16
+    },
+    {
+      "name": "Latte",
+      "price": 700,
+      "type": "Breakfast",
+      "id": 17
+    },
+    {
+      "name": "Natural fruit juice",
+      "price": 700,
+      "type": "Breakfast",
+      "id": 18
+    },
+    {
+      "name": "Ham & cheese sandwich",
       "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "type": "Breakfast",
+      "id": 19
     },
     {
-      "id": 2,
-      "name": "Café americano",
+      "name": "500ml water",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "type": "Lunch & dinner",
+      "id": 20
     },
     {
-      "id": 3,
-      "name": "Agua 500ml",
+      "name": "750ml water",
+      "price": 700,
+      "type": "Lunch & dinner",
+      "id": 21
+    },
+    {
+      "name": "500ml soda",
+      "price": 700,
+      "type": "Lunch & dinner",
+      "id": 22
+    },
+    {
+      "name": "750ml soda",
+      "price": 1000,
+      "type": "Lunch & dinner",
+      "id": 23
+    },
+    {
+      "name": "Classic burger",
+      "price": 1000,
+      "type": "Lunch & dinner",
+      "id": 24
+    },
+    {
+      "name": "Double burger",
+      "price": 1500,
+      "type": "Lunch & dinner",
+      "id": 25
+    },
+    {
+      "name": "Onion rings",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
-      "dateEntry": "2022-03-05 15:14:10"
+      "type": "Lunch & dinner",
+      "id": 26
+    },
+    {
+      "name": "French fries",
+      "price": 500,
+      "type": "Lunch & dinner",
+      "id": 27
     }
   ],
   "users": [
@@ -102,6 +150,24 @@
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
       "role": "admin",
       "id": 2
+    },
+    {
+      "email": "mesero@mail.com",
+      "password": "$2a$10$zq703wc48iLw06POuoECyOXmf16ZlE0xdPk9rwuaoFo5Y00q6E3zW",
+      "role": "waiter",
+      "id": 3
+    },
+    {
+      "email": "mesero1@mail.com",
+      "password": "$2a$10$uv5sMsZUGoc6DlSx//9AeOfHkwi/R1KpffPoEROdWZB5azkUUhfum",
+      "role": "waiter",
+      "id": 4
+    },
+    {
+      "email": "chef@mail.com",
+      "password": "$2a$10$aGq/XmRP9a2GcsN.c32/1eH77knotn4gySaN.qCT8/MRzt6sddXVm",
+      "role": "chef",
+      "id": 5
     }
   ]
 }
