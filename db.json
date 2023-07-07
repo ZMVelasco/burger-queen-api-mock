@@ -1,69 +1,5 @@
 {
-  "orders": [
-    {
-      "id": 1,
-      "userId": 1,
-      "client": "Jude Milhon",
-      "products": [
-        {
-          "qty": 1,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "client": "Katie Bouman",
-      "products": [
-        {
-          "qty": 2,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
-    }
-  ],
+  "orders": [],
   "products": [
     {
       "name": "American coffee",
@@ -136,38 +72,56 @@
       "price": 500,
       "type": "Lunch & dinner",
       "id": 27
+    },
+    {
+      "name": "French fries2",
+      "price": 500,
+      "type": "Lunch & dinner",
+      "id": 28
     }
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
+      "email": "belen@mail.com",
+      "password": "$2a$10$edJ.JRQlIwXn6XkHGRIxZ.x2N/.zRAxcijKlh2GXdS34Fd4dRWZWK",
+      "name": "Belén Neira",
       "role": "admin",
-      "id": 1
+      "id": 7
     },
     {
-      "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "email": "mariana@mail.com",
+      "password": "$2a$10$FgYrYnc.xA668XggWB8VCOo.uCWD7aAe08AzeWNaOZtzkUAyZGhy2",
+      "name": "Mariana Velasco",
       "role": "admin",
-      "id": 2
-    },
-    {
-      "email": "mesero@mail.com",
-      "password": "$2a$10$zq703wc48iLw06POuoECyOXmf16ZlE0xdPk9rwuaoFo5Y00q6E3zW",
-      "role": "waiter",
-      "id": 3
-    },
-    {
-      "email": "mesero1@mail.com",
-      "password": "$2a$10$uv5sMsZUGoc6DlSx//9AeOfHkwi/R1KpffPoEROdWZB5azkUUhfum",
-      "role": "waiter",
-      "id": 4
+      "id": 8
     },
     {
       "email": "chef@mail.com",
-      "password": "$2a$10$aGq/XmRP9a2GcsN.c32/1eH77knotn4gySaN.qCT8/MRzt6sddXVm",
+      "password": "$2a$10$Lw/xoMI1HKwxTyorODH9guHZmXFvV8h22tA.TiaSy7b5VOrr41fVy",
+      "name": "Chef One",
       "role": "chef",
-      "id": 5
+      "id": 9
+    },
+    {
+      "email": "chef1@mail.com",
+      "password": "$2a$10$hQ.zbm7lQ1iLZWr2da7m1udyA41Ws10DADOk91sGN5GbY6rBO/XUe",
+      "name": "Chef Two",
+      "role": "chef",
+      "id": 10
+    },
+    {
+      "email": "waiter@mail.com",
+      "password": "$2a$10$9wijUhGB8OmUt1tKlR3i6eTaGlngO78rZCWZInowcVHhUPG8QbaXe",
+      "name": "Waiter One",
+      "role": "waiter",
+      "id": 11
+    },
+    {
+      "email": "waiter1@mail.com",
+      "password": "$2a$10$oknz30rCBgZmkeF9cAbJk.K2ksxaBtN1zl3I4xQbolRJNXWexeV6i",
+      "name": "Waiter Two",
+      "role": "waiter",
+      "id": 12
     }
   ]
 }
