@@ -1,9 +1,355 @@
 {
-  "orders": [],
+  "orders": [
+    {
+      "userId": "8",
+      "client": "Mariana",
+      "products": [
+        {
+          "quantity": 1,
+          "id": 17,
+          "name": "Latte",
+          "price": 700
+        }
+      ],
+      "status": "Delivered",
+      "dateEntry": "7/7/2023, 2:33:01 PM",
+      "id": 1,
+      "modificationDate": "7/7/2023, 2:52:20 PM",
+      "deliveredDate": "7/9/2023, 11:53:02 AM"
+    },
+    {
+      "userId": "8",
+      "client": "Mariana",
+      "products": [
+        {
+          "quantity": 1,
+          "id": 20,
+          "name": "500ml water",
+          "price": 500
+        },
+        {
+          "quantity": 1,
+          "id": 21,
+          "name": "750ml water",
+          "price": 700
+        },
+        {
+          "quantity": 2,
+          "id": 22,
+          "name": "500ml soda",
+          "price": 700
+        }
+      ],
+      "status": "Delivered",
+      "dateEntry": "7/11/2023, 7:22:42 PM",
+      "id": 2,
+      "modificationDate": "7/12/2023, 7:28:03 AM",
+      "deliveredDate": "7/12/2023, 7:29:15 AM"
+    },
+    {
+      "userId": "8",
+      "client": "Belen",
+      "products": [
+        {
+          "quantity": 1,
+          "id": 16,
+          "name": "American coffee",
+          "price": "501"
+        },
+        {
+          "quantity": 1,
+          "id": 17,
+          "name": "Latte",
+          "price": 700
+        },
+        {
+          "quantity": 1,
+          "id": 18,
+          "name": "Natural fruit juice",
+          "price": 700
+        }
+      ],
+      "status": "Delivered",
+      "dateEntry": "7/11/2023, 7:23:11 PM",
+      "id": 3,
+      "modificationDate": "7/11/2023, 7:23:34 PM",
+      "deliveredDate": "7/14/2023, 8:01:18 AM"
+    },
+    {
+      "userId": "11",
+      "client": "Mariana",
+      "products": [
+        {
+          "quantity": 1,
+          "id": 22,
+          "name": "500ml soda",
+          "price": 700
+        },
+        {
+          "quantity": 1,
+          "id": 21,
+          "name": "750ml water",
+          "price": 700
+        },
+        {
+          "quantity": 1,
+          "id": 24,
+          "name": "Classic burger",
+          "price": 1000
+        },
+        {
+          "quantity": 1,
+          "id": 25,
+          "name": "Double burger",
+          "price": 1500
+        }
+      ],
+      "status": "Delivered",
+      "dateEntry": "7/12/2023, 7:26:23 AM",
+      "id": 4,
+      "modificationDate": "7/13/2023, 5:47:40 PM",
+      "deliveredDate": "7/14/2023, 8:01:21 AM"
+    },
+    {
+      "userId": "8",
+      "client": "Uno",
+      "products": [
+        {
+          "quantity": 1,
+          "id": 21,
+          "name": "750ml water",
+          "price": 700
+        },
+        {
+          "quantity": 1,
+          "id": 24,
+          "name": "Classic burger",
+          "price": 1000
+        }
+      ],
+      "status": "Delivered",
+      "dateEntry": "7/14/2023, 8:10:31 AM",
+      "id": 5,
+      "modificationDate": "7/14/2023, 8:10:53 AM",
+      "deliveredDate": "7/14/2023, 8:11:17 AM"
+    },
+    {
+      "userId": "8",
+      "client": "Dos",
+      "products": [
+        {
+          "quantity": 1,
+          "id": 28,
+          "name": "French fries2",
+          "price": 500
+        },
+        {
+          "quantity": 1,
+          "id": 27,
+          "name": "French fries",
+          "price": 500
+        }
+      ],
+      "status": "Delivered",
+      "dateEntry": "7/14/2023, 8:10:38 AM",
+      "id": 6,
+      "modificationDate": "7/14/2023, 8:10:55 AM",
+      "deliveredDate": "7/14/2023, 8:11:18 AM"
+    },
+    {
+      "userId": "8",
+      "client": "Mariana",
+      "products": [
+        {
+          "quantity": 1,
+          "id": 27,
+          "name": "French fries",
+          "price": 500
+        },
+        {
+          "quantity": 1,
+          "id": 24,
+          "name": "Classic burger",
+          "price": 1000
+        },
+        {
+          "quantity": 1,
+          "id": 23,
+          "name": "750ml soda",
+          "price": 1000
+        }
+      ],
+      "status": "Delivered",
+      "dateEntry": "7/14/2023, 8:06:01 PM",
+      "id": 7,
+      "modificationDate": "7/14/2023, 8:09:54 PM",
+      "deliveredDate": "7/14/2023, 8:10:19 PM"
+    },
+    {
+      "userId": "8",
+      "client": "Jane",
+      "products": [
+        {
+          "quantity": 1,
+          "id": 21,
+          "name": "750ml water",
+          "price": 700
+        },
+        {
+          "quantity": 2,
+          "id": 24,
+          "name": "Classic burger",
+          "price": 1000
+        },
+        {
+          "quantity": 1,
+          "id": 25,
+          "name": "Double burger",
+          "price": 1500
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "7/17/2023, 9:21:11 AM",
+      "id": 8
+    },
+    {
+      "userId": "8",
+      "client": "Ana",
+      "products": [
+        {
+          "quantity": 1,
+          "id": 20,
+          "name": "500ml water",
+          "price": 500
+        },
+        {
+          "quantity": 1,
+          "id": 21,
+          "name": "750ml water",
+          "price": 700
+        },
+        {
+          "quantity": 1,
+          "id": 22,
+          "name": "500ml soda",
+          "price": 700
+        },
+        {
+          "quantity": 1,
+          "id": 23,
+          "name": "750ml soda",
+          "price": 1000
+        },
+        {
+          "quantity": 1,
+          "id": 24,
+          "name": "Classic burger",
+          "price": 1000
+        },
+        {
+          "quantity": 1,
+          "id": 25,
+          "name": "Double burger",
+          "price": 1500
+        },
+        {
+          "quantity": 1,
+          "id": 26,
+          "name": "Onion rings",
+          "price": 500
+        },
+        {
+          "quantity": 1,
+          "id": 27,
+          "name": "French fries",
+          "price": "550"
+        },
+        {
+          "quantity": 1,
+          "id": 16,
+          "name": "American coffee",
+          "price": "501"
+        },
+        {
+          "quantity": 1,
+          "id": 32,
+          "name": "Prueba 4",
+          "price": 500
+        },
+        {
+          "quantity": 1,
+          "id": 29,
+          "name": "Prueba 1",
+          "price": 500
+        },
+        {
+          "quantity": 1,
+          "id": 31,
+          "name": "Prueba 3",
+          "price": 500
+        },
+        {
+          "quantity": 1,
+          "id": 19,
+          "name": "Ham & cheese sandwich",
+          "price": 1000
+        }
+      ],
+      "status": "pending",
+      "dateEntry": "7/17/2023, 10:04:51 AM",
+      "id": 9
+    },
+    {
+      "userId": "8",
+      "client": "John",
+      "products": [
+        {
+          "quantity": 1,
+          "id": 24,
+          "name": "Classic burger",
+          "price": 1000
+        },
+        {
+          "quantity": 1,
+          "id": 21,
+          "name": "750ml water",
+          "price": 700
+        },
+        {
+          "quantity": 1,
+          "id": 20,
+          "name": "500ml water",
+          "price": 500
+        },
+        {
+          "quantity": 1,
+          "id": 25,
+          "name": "Double burger",
+          "price": 1500
+        },
+        {
+          "quantity": 1,
+          "id": 27,
+          "name": "French fries",
+          "price": "550"
+        },
+        {
+          "quantity": 1,
+          "id": 26,
+          "name": "Onion rings",
+          "price": 500
+        }
+      ],
+      "status": "ready to serve",
+      "dateEntry": "7/17/2023, 10:41:23 AM",
+      "id": 10,
+      "modificationDate": "7/17/2023, 11:07:26 AM"
+    }
+  ],
   "products": [
     {
       "name": "American coffee",
-      "price": 500,
+      "price": "501",
       "type": "Breakfast",
       "id": 16
     },
@@ -69,20 +415,32 @@
     },
     {
       "name": "French fries",
-      "price": 500,
+      "price": "550",
       "type": "Lunch & dinner",
       "id": 27
     },
     {
-      "name": "French fries2",
+      "name": "Prueba 1",
       "price": 500,
-      "type": "Lunch & dinner",
-      "id": 28
+      "type": "Breakfast",
+      "id": 29
+    },
+    {
+      "name": "Prueba 3",
+      "price": 500,
+      "type": "Breakfast",
+      "id": 31
+    },
+    {
+      "name": "Prueba 4",
+      "price": 500,
+      "type": "Breakfast",
+      "id": 32
     }
   ],
   "users": [
     {
-      "email": "belen@mail.com",
+      "email": "belen12@mail.com",
       "password": "$2a$10$edJ.JRQlIwXn6XkHGRIxZ.x2N/.zRAxcijKlh2GXdS34Fd4dRWZWK",
       "name": "Belén Neira",
       "role": "admin",
@@ -105,7 +463,7 @@
     {
       "email": "chef1@mail.com",
       "password": "$2a$10$hQ.zbm7lQ1iLZWr2da7m1udyA41Ws10DADOk91sGN5GbY6rBO/XUe",
-      "name": "Chef Two",
+      "name": "Chef Two ",
       "role": "chef",
       "id": 10
     },
@@ -119,7 +477,7 @@
     {
       "email": "waiter1@mail.com",
       "password": "$2a$10$oknz30rCBgZmkeF9cAbJk.K2ksxaBtN1zl3I4xQbolRJNXWexeV6i",
-      "name": "Waiter Two",
+      "name": "Waiter Twooo",
       "role": "waiter",
       "id": 12
     }
